@@ -1,0 +1,492 @@
+
+FAQs In Networking Company
+------------------------------
+Read answers for relavant questions alone
+
+ http://kalyan-interviewfaqs.blogspot.in/
+
+ http://guorhuarlu.blogspot.in/2008/03/juniper-networks-phone-interview.html
+
+
+
+Interview Experience 
+---------------------------
+Go Through Relevant companies alone
+
+  http://www.geeksforgeeks.org/tag/interview-experience/
+
+
+Basic Networking & TCP IP (if you want to refresh)
+---------------------------------------------------
+http://www.omnisecu.com/tcpip/index.php
+
+
+Operating Systems
+------------------
+
+1) Diff between Process & Threads & Daemons
+
+2) Why is thread  called light weight process
+
+3) What all things that 2 process share and 2 threads share.
+
+4) Semaphore , Mutex Explanation and Difference and simple semaphore & mutex examples
+         http://www.geeksforgeeks.org/mutex-vs-semaphore/
+
+5) Parent & Child Process using fork
+
+6) Wait , Wait pid
+
+7) Basic signals like sigint, sigserv
+
+8) Zombie , orphan process
+
+9) What is critical section.
+
+10) what is deadlock and how to avoid it
+
+11) What is various scheduling techniques
+
+12) Priority Inversion & avoidance
+
+13) tcp ip communication
+
+14) connect, accept - blocking calls 
+    listen - non blocking
+
+15) TCP 3 way handshake 
+        4 way connection close
+    TCP FIN & RST
+
+    TCP Flow control 
+ 
+    TCP Windowing and MSS
+     
+    TCP Reset Attack
+
+    What is SOCK_SEQPACKET
+
+    what is SOCK_RAW, SOCK_DATAGRAM, SOCK_STREAM
+
+
+16) TCP State machine (only if possible and free, not important)
+
+
+17) Various IPC mechanisms
+
+
+18) Htonl and Ntohl
+
+Network - Big Endian , Host - Little Endian
+
+19) What is thrashing in OS 
+
+20) Internal & External Fragmentation
+
+21) Virtual Memory 
+
+22) Paging and segmentation
+
+
+MISC C QUESTIONS
+-------------------
+
+1) Swap 2 numbers without 3rd variable
+
+2) memmove and memcpy implementation
+
+3) Diff between malloc and calloc and realloc
+
+4) Size of data types in 32bit machine and 64 bit machine (Must know)
+
+5) Return value of printf and scanf
+
+6) puts, fputs, gets ,fgets
+
+7) volatile variable
+
+8) const char *ptr and  char *const ptr and const char *const ptr
+
+9) Various stages of C compilation 
+           http://www.tenouk.com/ModuleW.html
+
+10) Structure padding
+         http://www.geeksforgeeks.org/structure-member-alignment-padding-and-data-packing/
+        
+
+11) Structure hack
+       http://www.geeksforgeeks.org/struct-hack/
+
+12) Code for Fibonacci Series Generation
+
+13) Function Pointers Definition and use case
+
+14) How is stack frame created when function is called
+
+         http://www.tenouk.com/Bufferoverflowc/Bufferoverflow2a.html
+         http://www.tenouk.com/Bufferoverflowc/Bufferoverflow3.html
+
+         See C/C++ vs Buffer Overflow topic in the below link 
+                   http://www.tenouk.com/Sitemap.html   (Neat Explanation)
+  
+   
+15)  p++ &  *p++ what does it do? What is the difference
+
+
+16)   int *p = NULL;
+         p++;
+       printf ("Data = %u \r\n",p);
+    
+     What is the output ??
+
+17) OFFSETOF Macro
+         http://www.geeksforgeeks.org/the-offsetof-macro/
+
+18) Size of a structure without using sizeof command
+
+19) Unions - Definition and use case
+ 
+20) typedef usage
+
+21) Void pointer usage
+
+22) What is dangling pointers
+
+23) How to debug stack corruptions
+
+24) how to debug memory leak
+
+25) Stack Corruption and Stack Overflow
+
+26) How to pass array to function
+
+27) how to declare 2D array dynamic array (Using malloc).
+
+
+28) Size of array without using sizeof 
+
+29) Static Variables and Static Functions (Lifetime , scope, where stored internally)
+
+30) Global & Extern Variables and functions (Where they are stored internally, lifetime, scope)
+
+31) Return type of main ?? Can it be other than int 
+
+32) Command line arguments in c , argc and argv,
+
+33) Operator Precedence 
+
+
+
+ARRAYS:- 
+---------
+
+a) Sorting Techniques - Insertion, Selection, Bubble, Merge. 
+            Order of each technique. 
+                 http://www.codebeach.com/2008/09/sorting-algorithms-in-c.html (Code for insertion, selection, bubble, heap)
+                 http://www.cprogramming.com/tutorial/computersciencetheory/sortcomp.html  - (Comparison of various sorting techniques)
+ 
+
+b)  Given an array A[] and a number x, check for pair in A[] with sum as x
+    
+  http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+
+
+
+c) Find the Number Occurring Odd Number of Times
+      http://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/
+
+
+
+d) Find missing number in a array 
+         http://www.geeksforgeeks.org/find-the-missing-number/
+
+
+
+e) Merge an array of size n into another array of size m+n
+           http://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/
+
+
+
+f) Smallest and Second Smallest 
+          http://www.geeksforgeeks.org/to-find-smallest-and-second-smallest-element-in-an-array/
+
+
+
+g) Sorting by frequency 
+         http://www.geeksforgeeks.org/sort-elements-by-frequency/
+
+
+
+BIT OPERATIONS :-
+----------------------
+
+1) SET , RESET , GET  Bitmap
+
+
+2) Next Power of 2
+      http://www.geeksforgeeks.org/next-power-of-2/
+
+3) find the parity of an unsigned integer
+       http://www.geeksforgeeks.org/write-a-c-program-to-find-the-parity-of-an-unsigned-integer/
+
+4) Efficient way to multiply with 7
+       http://www.geeksforgeeks.org/efficient-way-to-multiply-with-7/
+
+5) find whether a no is power of two
+        http://www.geeksforgeeks.org/write-one-line-c-function-to-find-whether-a-no-is-power-of-two/
+
+6) Multiply by 3.5 
+         http://www.geeksforgeeks.org/multiply-an-integer-with-3-5/
+
+7) Reset Right most set bit 
+            http://www.geeksforgeeks.org/turn-off-the-rightmost-set-bit/
+
+8) Rotate bits in a unsigned int
+          http://www.geeksforgeeks.org/rotate-bits-of-an-integer/
+
+9) Count number of bits to be flipped to convert A to B
+          http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/
+
+10) Count set bits in an integer
+           http://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+
+11) Big Endian vs Little Endian
+           http://www.geeksforgeeks.org/little-and-big-endian-mystery/
+
+12) Find position of the only set bit
+          http://www.geeksforgeeks.org/find-position-of-the-only-set-bit/
+
+13) Swap Even & Odd Bits 
+            http://www.geeksforgeeks.org/swap-all-odd-and-even-bits/
+
+14) Binary Representaion of given number 
+         http://www.geeksforgeeks.org/binary-representation-of-a-given-number/
+
+15) Detect if two integers have opposite signs
+         http://www.geeksforgeeks.org/detect-if-two-integers-have-opposite-signs/
+
+16) Byte Swap , Nibble Swap - Have to google it.
+
+
+
+
+ STRINGS :- 
+--------------
+
+1) Return maximum occurring character in the input string
+          http://www.geeksforgeeks.org/return-maximum-occurring-character-in-the-input-string/
+
+
+2) Reverse words in a given string
+      http://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+
+
+3) Given a string, find its first non-repeating character
+     http://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+
+
+4) Divide a string in N equal parts
+         http://www.geeksforgeeks.org/divide-a-string-in-n-equal-parts/
+
+
+5) Write a C program to print all permutations of a given string
+          http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+
+
+6) Print reverse of a string using recursion
+         http://www.geeksforgeeks.org/reverse-a-string-using-recursion/
+
+
+7) A Program to check if strings are rotations of each other or not
+          http://www.geeksforgeeks.org/a-program-to-check-if-strings-are-rotations-of-each-other-or-not/
+
+
+8)  Print all the duplicates in the input string.
+          http://www.geeksforgeeks.org/print-all-the-duplicates-in-the-input-string/
+
+9) Remove all duplicates from the input string.
+          http://www.geeksforgeeks.org/remove-all-duplicates-from-the-input-string/
+
+10) Check whether two strings are anagram of each other
+          http://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/
+
+11) Run Length Encoding 
+              http://www.geeksforgeeks.org/run-length-encoding/
+
+12) String Reverse , StrCat , StrStr , Strcpy, strdup, strtok
+
+
+13) Write your own atoi()
+       http://www.geeksforgeeks.org/write-your-own-atoi/
+      
+
+
+14) Count words in a given string
+         http://www.geeksforgeeks.org/count-words-in-a-given-string/
+
+
+15) String matching where one string contains wildcard characters
+           http://www.geeksforgeeks.org/wildcard-character-matching/
+
+
+16) Changing values in a String Constant (Code will crash) 
+
+
+Linked List :- 
+--------------------
+
+1) Single Link List , Double Link List , Circular Link List 
+        - Insert, Insert Ascending, Insert at front, Insert at back, Insert Middle.
+        - Delete , Delete at front , delete at middle, Delete at back.
+        - Sort Ascending , Descending.
+        - Reverse (Single, Double :- Very Very FAQ)
+
+
+
+2) Write a function to get Nth node in a Linked List
+          http://www.geeksforgeeks.org/write-a-function-to-get-nth-node-in-a-linked-list/
+
+3) Given only a pointer to a node to be deleted in a singly linked list, how do you delete it?
+          http://www.geeksforgeeks.org/given-only-a-pointer-to-a-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-it/
+
+4) Write a C function to print the middle of a given linked list
+           http://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/
+
+5) Nth node from the end of a Linked List
+           http://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
+
+6) Write a function to delete a Linked List
+           http://www.geeksforgeeks.org/write-a-function-to-delete-a-linked-list/
+
+7) Write a function that counts the number of times a given int occurs in a Linked List
+           http://www.geeksforgeeks.org/write-a-function-that-counts-the-number-of-times-a-given-int-occurs-in-a-linked-list/
+
+8) Write a function to reverse a linked list
+          http://www.geeksforgeeks.org/write-a-function-to-reverse-the-nodes-of-a-linked-list/
+       
+          http://www.geeksforgeeks.org/reverse-a-doubly-linked-list/
+
+9) Detect Loop
+          http://www.geeksforgeeks.org/write-a-c-function-to-detect-loop-in-a-linked-list/
+
+10) Palindrome 
+          http://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/
+
+11) Binary Search Tree to DLL
+           http://www.geeksforgeeks.org/the-great-tree-list-recursion-problem/
+
+12) Insert in Sorted way
+          http://www.geeksforgeeks.org/given-a-linked-list-which-is-sorted-how-will-you-insert-in-sorted-way/
+
+13) Intersection of 2 Linked list
+          http://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/
+
+14) Write a recursive function to print reverse of a Linked List
+          http://www.geeksforgeeks.org/write-a-recursive-function-to-print-reverse-of-a-linked-list/
+
+15) How to write C functions that modify head pointer of a Linked List?
+          http://www.geeksforgeeks.org/how-to-write-functions-that-modify-the-head-pointer-of-a-linked-list/
+
+16) Rotate a link list 
+          http://www.geeksforgeeks.org/rotate-a-linked-list/
+
+17) Sum of two link list 
+          http://www.geeksforgeeks.org/sum-of-two-linked-lists/
+
+
+
+TREES :-
+--------
+
+1) Tree Traversals :- Inorder  , Pre-Order , Post Order  
+                With Recursion
+                Without Recursion
+                Use of Each Traversal :- Inorder - Sorting 
+                                         PreOrder - Copying a tree to another tree
+                                         Post Order - Deleting a tree
+
+                 http://www.geeksforgeeks.org/618/
+                 
+                 http://codepad.org/QEVUNzYU
+
+
+2) Balancing a binary tree:- L-R Rotation, L-L Rotation, R-R rotations (Should know the concept alone , Coding not important)
+               Wikipedia
+
+3) Given a tree, write the inorder, preorder and post order traversal for that tree.
+             http://www.math.ucla.edu/~wittman/10b.1.10w/Lectures/Lec18.pdf 
+            Just for an example :- See page 2 alone in that pdf
+
+4)  Size of tree 
+             http://www.geeksforgeeks.org/write-a-c-program-to-calculate-size-of-a-tree/
+
+5) Identical Tree 
+        http://www.geeksforgeeks.org/write-c-code-to-determine-if-two-trees-are-identical/
+
+6) Depth of a tree 
+          http://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/
+
+7) Delete a tree fully 
+          http://www.geeksforgeeks.org/write-a-c-program-to-delete-a-tree/
+
+8) Mirror a Tree
+          http://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/
+
+9) Can you construct a tree from given traversals  (Just concept)
+      http://www.geeksforgeeks.org/if-you-are-given-two-traversal-sequences-can-you-construct-the-binary-tree/
+   
+
+10) Lowest Common Ancestor 
+          http://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/
+
+11) BST to DLL Question (See linked list section)
+
+
+12) Level Order Traversal
+        http://www.geeksforgeeks.org/level-order-tree-traversal/
+
+13) Count the leaves in tree 
+         Program to count leaf nodes in a binary tree
+
+14) Is Tree BST or not 
+       http://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+
+15) Level order in Spiral Form
+       http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+
+16) Children Sum Property (I dint understand this , so dint study)
+        http://www.geeksforgeeks.org/check-for-children-sum-property-in-a-binary-tree/
+
+17) Check isTree balanced 
+          http://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/
+
+18) Get Level of a node 
+          http://www.geeksforgeeks.org/get-level-of-a-node-in-a-binary-tree/
+
+19) Find the inorder Successor of a node 
+       http://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
+
+20) Double Tree 
+       http://www.geeksforgeeks.org/double-tree/
+
+21) Binary tree to BST 
+            http://www.geeksforgeeks.org/binary-tree-to-binary-search-tree-conversion/
+
+22) Reverse level order traversal
+         http://www.geeksforgeeks.org/reverse-level-order-traversal/
+
+23) Print left view 
+          http://www.geeksforgeeks.org/print-left-view-binary-tree/
+
+24) Check Leaf Level 
+          http://www.geeksforgeeks.org/check-leaves-level/
+
+25) Delete a node in a binary search tree (I studied in Let Us C book)
+ 
+ 
+       
+  
+
+
+
+              
